@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Password generator </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="background-frame">
+      <div id="rectangle" class="box-design"></div>
+      <div class="inner-boxes">
+        <div class="inner-box-text">
+          <h3> Length: </h3>
+          <h3> Lowercase: </h3>
+          <h3> Uppercase: </h3>
+          <h3> Symbols: </h3>
+          <h3> Numbers: </h3>
+        </div>
+        <div class="inner-box-checkbox">
+          <input id="passwordLength" class="lenght-padding" type="text">
+          <input id="lowCase" class="checkbox-padding lowercase" type="checkbox" value="lowercase">
+          <input id="uppCase" class="checkbox-padding uppercase" type="checkbox" value="uppercase">
+          <input id="symbol" class="checkbox-padding symbols" type="checkbox" value="symbol">
+          <input id="number" class="checkbox-padding numbers" type="checkbox" value="number">
+        </div>
+      </div>
+      <button class="button"> Generate password </button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
